@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { View, Text, Image, ScrollView } from 'react-native'
-import styles from '../styles'
+import { Text, ScrollView } from 'react-native'
 import images from '../images/images'
 import Party from './party'
 

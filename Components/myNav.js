@@ -4,18 +4,18 @@ import styles from '../styles'
 
 
 export default class MyNav extends Component {
-    constructor(props){
+    constructor(props) {
         super(props)
         this.handlePress = this.handlePress.bind(this)
     }
     handlePress = e => {
-        if(this.props.btnTitle === 'הצבעה')
+        if (this.props.btnTitle === 'הצבעה')
             this.props.sendData('list')
-        if(this.props.btnTitle === 'תוצאות')
+        if (this.props.btnTitle === 'תוצאות')
             this.props.sendData('top')
     }
-    render(){
-        return(
+    render() {
+        return (
             <View style={styles.nav}>
                 <Text style={styles.navTitle}>בחירות ישראל 2019</Text>
                 <Button
