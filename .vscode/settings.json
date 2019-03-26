@@ -1,0 +1,7 @@
+{
+    "eslint.autoFixOnSave": true,
+    "eslint.nodePath": "/node_modules/eslint",
+    "workbench.colorCustomizations" : {
+        "terminal.background" : "#000c18"
+    }
+}
